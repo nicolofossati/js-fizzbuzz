@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #083B4C;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default_box_color{
+    background-color: #1389B2;
+}
+
+.fizz_box_color{
+    background-color: #0BD6A1;
+}
+
+.buzz_box_color{
+    background-color: #FFD166;
+}
+
+.fizzbuzz_box_color{
+    background-color: #F0466F;
+}
