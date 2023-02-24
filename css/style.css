@@ -8,24 +8,6 @@ body{
     background-color: #083B4C;
 }
 
-.container{
-    width: 900px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.box{
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .default_box_color{
     background-color: #1389B2;
 }
@@ -40,4 +22,21 @@ body{
 
 .fizzbuzz_box_color{
     background-color: #F0466F;
+}
+
+.container{
+    width: 900px;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 80px;
 }

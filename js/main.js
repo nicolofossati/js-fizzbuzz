@@ -7,7 +7,7 @@ for(let i=1; i<=100; i++){
     boxDom.append(i); 
     containerDom.append(boxDom);
 
-    if((i%3 == 0) && (i%5 == 0)){
+    if((i%3 == 0) && (i%5 == 0)){ //se i è sia multiplo di 5 che di 3 
         boxDom.classList.remove('default_box_color');
         boxDom.classList.add('fizzbuzz_box_color');
         boxDom.innerHTML = "fizzbuzz";
